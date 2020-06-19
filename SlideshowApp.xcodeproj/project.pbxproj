@@ -14,6 +14,9 @@
 		D71CB3C0249AEED4009503B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D71CB3BF249AEED4009503B2 /* Assets.xcassets */; };
 		D71CB3C3249AEED4009503B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D71CB3C1249AEED4009503B2 /* LaunchScreen.storyboard */; };
 		D71CB3CB249AF478009503B2 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71CB3CA249AF478009503B2 /* ResultViewController.swift */; };
+		D7E4C58E249CD51200D35862 /* uni.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7E4C58B249CD51100D35862 /* uni.jpg */; };
+		D7E4C58F249CD51200D35862 /* kani.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7E4C58C249CD51200D35862 /* kani.jpg */; };
+		D7E4C590249CD51200D35862 /* ramen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7E4C58D249CD51200D35862 /* ramen.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		D71CB3C2249AEED4009503B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D71CB3C4249AEED4009503B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D71CB3CA249AF478009503B2 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		D7E4C58B249CD51100D35862 /* uni.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = uni.jpg; sourceTree = "<group>"; };
+		D7E4C58C249CD51200D35862 /* kani.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kani.jpg; sourceTree = "<group>"; };
+		D7E4C58D249CD51200D35862 /* ramen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ramen.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				D71CB3BF249AEED4009503B2 /* Assets.xcassets */,
 				D71CB3C1249AEED4009503B2 /* LaunchScreen.storyboard */,
 				D71CB3C4249AEED4009503B2 /* Info.plist */,
+				D7E4C58C249CD51200D35862 /* kani.jpg */,
+				D7E4C58D249CD51200D35862 /* ramen.jpg */,
+				D7E4C58B249CD51100D35862 /* uni.jpg */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -129,7 +138,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D71CB3C3249AEED4009503B2 /* LaunchScreen.storyboard in Resources */,
+				D7E4C590249CD51200D35862 /* ramen.jpg in Resources */,
+				D7E4C58F249CD51200D35862 /* kani.jpg in Resources */,
 				D71CB3C0249AEED4009503B2 /* Assets.xcassets in Resources */,
+				D7E4C58E249CD51200D35862 /* uni.jpg in Resources */,
 				D71CB3BE249AEED2009503B2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
