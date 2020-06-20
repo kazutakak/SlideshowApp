@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     var imageIndex = 0
 
     //表示する画像の配列定義
-    let images: [UIImage] = [UIImage(named:"kani.jpg")!, UIImage(named:"ramen.jpg")!, UIImage(named:"uni.jpg")!]
+    let images: [UIImage] = [UIImage(named:"kani.jpg")!, UIImage(named:"men.jpg")!, UIImage(named:"uni.jpg")!]
 
     override func viewDidLoad() {
         super.viewDidLoad()
