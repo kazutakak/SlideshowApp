@@ -14,9 +14,9 @@
 		D71CB3C0249AEED4009503B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D71CB3BF249AEED4009503B2 /* Assets.xcassets */; };
 		D71CB3C3249AEED4009503B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D71CB3C1249AEED4009503B2 /* LaunchScreen.storyboard */; };
 		D71CB3CB249AF478009503B2 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71CB3CA249AF478009503B2 /* ResultViewController.swift */; };
-		D74AFF06249E113200392B18 /* uni.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D74AFF03249E113200392B18 /* uni.jpg */; };
-		D74AFF07249E113200392B18 /* kani.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D74AFF04249E113200392B18 /* kani.jpg */; };
-		D74AFF08249E113200392B18 /* men.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D74AFF05249E113200392B18 /* men.jpg */; };
+		D721D58A249F482C00CBD842 /* kani.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D721D587249F482A00CBD842 /* kani.jpg */; };
+		D721D58B249F482C00CBD842 /* uni.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D721D588249F482B00CBD842 /* uni.jpg */; };
+		D721D58C249F482C00CBD842 /* men.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D721D589249F482C00CBD842 /* men.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,9 +29,9 @@
 		D71CB3C2249AEED4009503B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D71CB3C4249AEED4009503B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D71CB3CA249AF478009503B2 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
-		D74AFF03249E113200392B18 /* uni.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = uni.jpg; path = ../../Slideshow_images/uni.jpg; sourceTree = "<group>"; };
-		D74AFF04249E113200392B18 /* kani.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kani.jpg; path = ../../Slideshow_images/kani.jpg; sourceTree = "<group>"; };
-		D74AFF05249E113200392B18 /* men.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = men.jpg; path = ../../Slideshow_images/men.jpg; sourceTree = "<group>"; };
+		D721D587249F482A00CBD842 /* kani.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kani.jpg; sourceTree = "<group>"; };
+		D721D588249F482B00CBD842 /* uni.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = uni.jpg; sourceTree = "<group>"; };
+		D721D589249F482C00CBD842 /* men.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = men.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +48,9 @@
 		D71CB3AA249AEED2009503B2 = {
 			isa = PBXGroup;
 			children = (
+				D721D587249F482A00CBD842 /* kani.jpg */,
+				D721D589249F482C00CBD842 /* men.jpg */,
+				D721D588249F482B00CBD842 /* uni.jpg */,
 				D71CB3B5249AEED2009503B2 /* SlideshowApp */,
 				D71CB3B4249AEED2009503B2 /* Products */,
 			);
@@ -72,9 +75,6 @@
 				D71CB3BF249AEED4009503B2 /* Assets.xcassets */,
 				D71CB3C1249AEED4009503B2 /* LaunchScreen.storyboard */,
 				D71CB3C4249AEED4009503B2 /* Info.plist */,
-				D74AFF04249E113200392B18 /* kani.jpg */,
-				D74AFF05249E113200392B18 /* men.jpg */,
-				D74AFF03249E113200392B18 /* uni.jpg */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -137,11 +137,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D721D58C249F482C00CBD842 /* men.jpg in Resources */,
 				D71CB3C3249AEED4009503B2 /* LaunchScreen.storyboard in Resources */,
-				D74AFF08249E113200392B18 /* men.jpg in Resources */,
-				D74AFF07249E113200392B18 /* kani.jpg in Resources */,
 				D71CB3C0249AEED4009503B2 /* Assets.xcassets in Resources */,
-				D74AFF06249E113200392B18 /* uni.jpg in Resources */,
+				D721D58A249F482C00CBD842 /* kani.jpg in Resources */,
+				D721D58B249F482C00CBD842 /* uni.jpg in Resources */,
 				D71CB3BE249AEED2009503B2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
