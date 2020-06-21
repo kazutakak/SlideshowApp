@@ -32,6 +32,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var backButton: UIButton!
     
+    @IBOutlet weak var PlaybackButton: UIButton!
+    
     @IBAction func next(_ sender: Any) {
             if imageIndex == 2 {
                 imageIndex = 0
@@ -78,17 +80,16 @@ class ViewController: UIViewController {
         }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // segueから遷移先のResultViewControllerを取得する
-//         if (segue.identifier == "ResultViewController"){
+        if self.timer != nil {
+            self.timer.invalidate()
+            self.timer = nil
+            
+            PlaybackButton.setTitle("再生", for: .normal)
+        }
 
             let resultViewController: ResultViewController = (segue.destination as? ResultViewController)!
 
-//            let imagename = images[imageIndex]
-//            let nawimage = UIImage(named: imagename)
-            
-//            let imagename = images[imageIndex]
             resultViewController.selectedImage = images[imageIndex]
-//         }
     }
 
     @IBAction func unwind(_ segue: UIStoryboardSegue) {

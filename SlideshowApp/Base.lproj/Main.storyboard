@@ -71,6 +71,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="PlaybackButton" destination="q68-2G-bPj" id="cvb-Az-PL0"/>
                         <outlet property="backButton" destination="EMN-R1-25b" id="ua4-LN-Yuo"/>
                         <outlet property="imageView" destination="oj5-hx-Jwe" id="IJ5-BA-HtN"/>
                         <outlet property="nextButton" destination="PKr-Vu-LzO" id="zF0-UU-2gW"/>
